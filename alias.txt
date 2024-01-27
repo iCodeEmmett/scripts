@@ -1,0 +1,2 @@
+alias pacman-setup="sudo apt update && sudo apt upgrade && curl -sL https://deb.nodesource.com/setup_20.x -o setup_node20.sh | sudo bash -E && sudo apt update && sudo apt install nodejs && sudo apt install npm && sudo npm i -g n && n latest && clear && echo "Pac-Man setup complete. Please enter 'pacman-start' to begin the treasure hunt!"
+alias pacman-start="snippet run realemmetts/start-pacman"
